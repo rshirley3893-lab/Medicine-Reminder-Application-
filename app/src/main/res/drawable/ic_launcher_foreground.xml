@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp safe zone (21 to 87 on 108dp canvas) -->
+    <!-- Pill Capsule Body angled at 45 deg -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="45">
+        <!-- Bottom half capsule (accent teal) -->
+        <path
+            android:pathData="M40,54 L40,68 C40,75.7 46.3,82 54,82 C61.7,82 68,75.7 68,68 L68,54 Z"
+            android:fillColor="#4DD8E6" />
+        <!-- Top half capsule (bright white) -->
+        <path
+            android:pathData="M40,54 L40,40 C40,32.3 46.3,26 54,26 C61.7,26 68,32.3 68,40 L68,54 Z"
+            android:fillColor="#FFFFFF" />
+        <!-- Capsule divider line -->
+        <path
+            android:pathData="M38,54 L70,54"
+            android:strokeWidth="2.5"
+            android:strokeColor="#004F58" />
+        <!-- Medical Cross on top half -->
+        <path
+            android:pathData="M51,34 L57,34 L57,46 L51,46 Z M48,37 L60,37 L60,43 L48,43 Z"
+            android:fillColor="#006874" />
+        <!-- Heart / Clock dot on bottom half -->
+        <path
+            android:pathData="M54,63 A4,4 0 1,0 54,71 A4,4 0 1,0 54,63 Z"
+            android:fillColor="#004F58" />
+    </group>
+    <!-- Little notification reminder spark / bell at top-right -->
+    <path
+        android:pathData="M76,32 C76,30.3 74.7,29 73,29 C71.3,29 70,30.3 70,32 L69,37 L77,37 Z M68,38 L78,38 L78,39 L68,39 Z M72,40 C72,40.6 72.4,41 73,41 C73.6,41 74,40.6 74,40 Z"
+        android:fillColor="#FFD966" />
+</vector>
